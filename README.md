@@ -30,7 +30,7 @@
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/yourusername/memory-manipulation-utility.git
+   git clone https://github.com/ShorterKing/Hexinjector-XOR.git
    cd memory-manipulation-utility
    ```
 2. Build with Visual Studio or via CLI:
