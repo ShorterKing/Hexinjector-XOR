@@ -1,0 +1,4 @@
+﻿  injector.cpp
+injector.obj : error LNK2001: unresolved external symbol "void __cdecl PrintHex(class std::vector<unsigned char,class std::allocator<unsigned char> > const &,unsigned __int64)" (?PrintHex@@YAXAEBV?$vector@EV?$allocator@E@std@@@std@@_K@Z)
+injector.obj : error LNK2001: unresolved external symbol "class std::vector<unsigned char,class std::allocator<unsigned char> > __cdecl StringToBytes(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?StringToBytes@@YA?AV?$vector@EV?$allocator@E@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z)
+C:\Users\Akshat Singh\Desktop\Exploits\injector\x64\Release\injector.exe : fatal error LNK1120: 2 unresolved externals
