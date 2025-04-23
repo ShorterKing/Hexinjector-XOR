@@ -31,7 +31,7 @@
 1. Clone this repo:
    ```bash
    git clone https://github.com/ShorterKing/Hexinjector-XOR.git
-   cd memory-manipulation-utility
+   cd Hexinjector-XOR
    ```
 2. Build with Visual Studio or via CLI:
    ```powershell
